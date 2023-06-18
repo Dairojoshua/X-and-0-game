@@ -1,0 +1,32 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left:100px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px 10px;
+  }
+  
+  h1 {
+   margin-left: 100px;
+    color: green;
+  }
+  
